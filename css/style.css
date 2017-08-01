@@ -1,0 +1,1203 @@
+/* line 5, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../sass/_settings.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+/* line 18, ../sass/_settings.scss */
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/* line 22, ../sass/_settings.scss */
+.wr {
+  display: flex;
+  width: 920px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 5, ../sass/style.scss */
+#wrapper {
+  width: 1350px;
+  margin: 0 auto;
+  min-height: calc(100vh - 773px);
+}
+
+/* line 11, ../sass/style.scss */
+section#Lblock {
+  width: 16%;
+  background-color: #F3F3F3;
+  float: left;
+}
+/* line 16, ../sass/style.scss */
+section#Lblock .wrap {
+  padding: 50px 29px 0;
+  height: 100%;
+  border-right: 1px solid #a7a7a7;
+  box-sizing: border-box;
+}
+/* line 21, ../sass/style.scss */
+section#Lblock .wrap h1 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/* line 28, ../sass/style.scss */
+section#Lblock .wrap h3 {
+  color: #5181FC;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+/* line 35, ../sass/style.scss */
+section#Lblock .wrap #Lmenu {
+  transition: all 1s;
+}
+/* line 37, ../sass/style.scss */
+section#Lblock .wrap #Lmenu div {
+  position: relative;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #4c4c4c;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 400;
+  border-bottom: 1px solid #a7a7a7;
+  opacity: 0.8;
+  overflow: hidden;
+}
+/* line 50, ../sass/style.scss */
+section#Lblock .wrap #Lmenu div a {
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  margin-left: 20px;
+}
+/* line 58, ../sass/style.scss */
+section#Lblock .wrap #Lmenu div a:active, section#Lblock .wrap #Lmenu div a:link, section#Lblock .wrap #Lmenu div a:visited {
+  color: #4c4c4c;
+}
+/* line 61, ../sass/style.scss */
+section#Lblock .wrap #Lmenu div a::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+/* line 70, ../sass/style.scss */
+section#Lblock .wrap #Lmenu div::before {
+  content: " ";
+  top: 17px;
+  background-color: #5181FC;
+  position: absolute;
+  left: 3px;
+  width: 11px;
+  height: 2px;
+}
+/* line 82, ../sass/style.scss */
+section#Lblock .wrap #Lmenu div:last-child {
+  border-bottom: none;
+}
+/* line 85, ../sass/style.scss */
+section#Lblock .wrap #Lmenu .Lactive {
+  opacity: 1;
+}
+/* line 87, ../sass/style.scss */
+section#Lblock .wrap #Lmenu .Lactive a {
+  margin-left: 30px;
+}
+/* line 90, ../sass/style.scss */
+section#Lblock .wrap #Lmenu .Lactive:before {
+  width: 20px;
+}
+
+/* line 98, ../sass/style.scss */
+section#Rblock {
+  width: 84%;
+  height: 100%;
+  float: right;
+}
+/* line 104, ../sass/style.scss */
+section#Rblock section#header {
+  min-height: 580px;
+  background-image: url("../img/Layer-1.png");
+}
+/* line 108, ../sass/style.scss */
+section#Rblock section#header .wr {
+  justify-content: flex-end;
+}
+/* line 110, ../sass/style.scss */
+section#Rblock section#header .wr #head {
+  width: 530px;
+  position: relative;
+  top: 70px;
+}
+/* line 115, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text {
+  width: 530px;
+  height: 275px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 120, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul {
+  position: absolute;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+/* line 127, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li {
+  width: 530px;
+  height: 275px;
+  float: left;
+  list-style: none;
+}
+/* line 132, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li h2, section#Rblock section#header .wr #head .head-text ul li h1 {
+  font-family: "Exo2Regular", sans-serif;
+  font-weight: 500;
+  color: #4c4c4c;
+}
+/* line 138, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li h2 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+/* line 139, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li h1 {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+/* line 140, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li h1 span {
+  color: #3971ff;
+}
+/* line 142, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li h3 {
+  color: #3971ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 152, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li h3::after, section#Rblock section#header .wr #head .head-text ul li h3::before {
+  content: ' ';
+  display: block;
+  margin: 8.5px 0;
+  height: 1px;
+  width: 200px;
+  background-color: #4c4c4c;
+}
+/* line 162, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4c4c4c;
+}
+/* line 168, ../sass/style.scss */
+section#Rblock section#header .wr #head .head-text ul li p span {
+  color: #3971ff;
+}
+/* line 175, ../sass/style.scss */
+section#Rblock section#header .wr #head .my-info {
+  margin-top: 40px;
+}
+/* line 177, ../sass/style.scss */
+section#Rblock section#header .wr #head .my-info div {
+  width: 180px;
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  transition: 1s;
+}
+/* line 188, ../sass/style.scss */
+section#Rblock section#header .wr #head .my-info div::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #3971FF;
+  margin-top: 15px;
+  transition: all 1s;
+}
+/* line 198, ../sass/style.scss */
+section#Rblock section#header .wr #head .my-info .my-info-active {
+  color: #3971FF;
+}
+/* line 200, ../sass/style.scss */
+section#Rblock section#header .wr #head .my-info .my-info-active::after {
+  width: 150px;
+}
+/* line 210, ../sass/style.scss */
+section#Rblock section#my__skills {
+  padding-top: 85px;
+  padding-bottom: 95px;
+  background-color: #F3F3F3;
+}
+/* line 215, ../sass/style.scss */
+section#Rblock section#my__skills .wr {
+  flex-direction: column;
+}
+/* line 218, ../sass/style.scss */
+section#Rblock section#my__skills .wr .section_title h2 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 220, ../sass/style.scss */
+section#Rblock section#my__skills .wr .section_title h2:after {
+  content: "";
+  margin-top: 20px;
+  background-image: url("../img/Vector-line.png");
+  width: 70px;
+  height: 5px;
+  display: block;
+}
+/* line 225, ../sass/style.scss */
+section#Rblock section#my__skills .wr .my_skills_level {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+/* line 229, ../sass/style.scss */
+section#Rblock section#my__skills .wr .my_skills_level ul {
+  width: 50%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+/* line 233, ../sass/style.scss */
+section#Rblock section#my__skills .wr .my_skills_level ul li {
+  box-sizing: border-box;
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 45px;
+}
+/* line 244, ../sass/style.scss */
+section#Rblock section#my__skills .wr .my_skills_level ul li span {
+  position: absolute;
+  right: 0;
+}
+/* line 248, ../sass/style.scss */
+section#Rblock section#my__skills .wr .my_skills_level ul li .toddler {
+  background-color: #B0C6FF;
+  width: 100%;
+  height: 5px;
+  margin-top: 20px;
+}
+/* line 254, ../sass/style.scss */
+section#Rblock section#my__skills .wr .my_skills_level ul li .toddler .inner_toddler {
+  position: relative;
+  background-color: #5181FC;
+  width: 20%;
+  height: 100%;
+}
+/* line 260, ../sass/style.scss */
+section#Rblock section#my__skills .wr .my_skills_level ul li .toddler .inner_toddler:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -5px;
+  border-left: 5px solid #5181FC;
+  border-bottom: 5px solid transparent;
+}
+/* line 276, ../sass/style.scss */
+section#Rblock section#education {
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+/* line 279, ../sass/style.scss */
+section#Rblock section#education .wr {
+  flex-direction: column;
+}
+/* line 282, ../sass/style.scss */
+section#Rblock section#education .wr .section_title h2 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 284, ../sass/style.scss */
+section#Rblock section#education .wr .section_title h2:after {
+  content: "";
+  margin-top: 20px;
+  background-image: url("../img/Vector-line.png");
+  width: 70px;
+  height: 5px;
+  display: block;
+}
+/* line 289, ../sass/style.scss */
+section#Rblock section#education .wr .education__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 294, ../sass/style.scss */
+section#Rblock section#education .wr .education__list .education__items {
+  width: 50%;
+  margin-top: 95px;
+}
+/* line 297, ../sass/style.scss */
+section#Rblock section#education .wr .education__list .education__items .external_number__skills {
+  display: flex;
+  flex-direction: row;
+}
+/* line 300, ../sass/style.scss */
+section#Rblock section#education .wr .education__list .education__items .external_number__skills .number__skills {
+  margin-right: 30px;
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 312, ../sass/style.scss */
+section#Rblock section#education .wr .education__list .education__items .external_number__skills .description__skills {
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+/* line 316, ../sass/style.scss */
+section#Rblock section#education .wr .education__list .education__items .external_number__skills .description__skills h3 {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+/* line 332, ../sass/style.scss */
+section#Rblock section#education .wr .education__list .education__items .external_number__skills .description__skills .position_both {
+  color: #4c4c4c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 342, ../sass/style.scss */
+section#Rblock section#education .wr .education__list .education__items .desc__skills_inner {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* line 355, ../sass/style.scss */
+section#Rblock section#recent_project {
+  background-color: #f3f3f3;
+}
+/* line 357, ../sass/style.scss */
+section#Rblock section#recent_project .wr {
+  padding-top: 100px;
+  flex-direction: column;
+}
+/* line 361, ../sass/style.scss */
+section#Rblock section#recent_project .wr .section_title h2 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 363, ../sass/style.scss */
+section#Rblock section#recent_project .wr .section_title h2:after {
+  content: "";
+  margin-top: 20px;
+  background-image: url("../img/Vector-line.png");
+  width: 70px;
+  height: 5px;
+  display: block;
+}
+/* line 368, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 95px;
+}
+/* line 373, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item {
+  width: 48.4%;
+  position: relative;
+}
+/* line 377, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li {
+  width: 100%;
+  margin-bottom: 100px;
+}
+/* line 380, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project {
+  position: relative;
+  width: 445px;
+  height: 296px;
+  padding: 0;
+  margin-bottom: 55px;
+  transition: opacity 1s, box-shadow 1s;
+}
+/* line 387, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1 {
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s;
+}
+/* line 392, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1:hover {
+  opacity: 0.7;
+}
+/* line 394, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  max-width: 30%;
+  max-height: 3px;
+  background: #006AE4;
+  transition: opacity 1s, max-width 1s;
+  z-index: 99;
+  opacity: 0;
+}
+/* line 409, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  max-width: 3px;
+  max-height: 40%;
+  background-color: blue;
+  transition: opacity 1s, max-height 1s;
+  background-color: #006AE4;
+  opacity: 0;
+}
+/* line 425, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1:hover {
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+/* line 430, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1:hover:after {
+  max-height: 60%;
+  opacity: 1;
+}
+/* line 435, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1:hover:before {
+  max-width: 50%;
+  opacity: 1;
+}
+/* line 440, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .image_project .image_project_index_1 img {
+  width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 451, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .name_image_project {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+/* line 460, ../sass/style.scss */
+section#Rblock section#recent_project .wr .project__list .project__item li .description_project {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* line 474, ../sass/style.scss */
+section#Rblock section#recent_post {
+  padding: 100px 0;
+}
+/* line 476, ../sass/style.scss */
+section#Rblock section#recent_post .wr {
+  flex-direction: column;
+}
+/* line 479, ../sass/style.scss */
+section#Rblock section#recent_post .wr .section_title h2 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 481, ../sass/style.scss */
+section#Rblock section#recent_post .wr .section_title h2:after {
+  content: "";
+  margin-top: 20px;
+  background-image: url("../img/Vector-line.png");
+  width: 70px;
+  height: 5px;
+  display: block;
+}
+/* line 487, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post {
+  margin: 90px 13.5% 70px;
+  position: relative;
+}
+/* line 491, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .top_days_week {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 60px 30px;
+}
+/* line 496, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .top_days_week li {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* line 503, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .bottom_line {
+  width: 670px;
+  height: 2px;
+  background-color: #858586;
+}
+/* line 507, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .bottom_line .blue_active_line {
+  position: relative;
+  background-color: #5181FC;
+  width: 100px;
+  height: 2px;
+  left: 35px;
+}
+/* line 514, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .bottom_line .blue_active_line:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -9px;
+  left: 47px;
+  border: 5px solid transparent;
+  border-bottom: 5px solid #5181FC;
+}
+/* line 525, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .left_arrow_post, section#Rblock section#recent_post .wr .inner_navigation_post .right_arrow_post {
+  position: absolute;
+  font-size: 50px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #4c4c4c;
+  border-radius: 50%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  line-height: 35px;
+  cursor: pointer;
+  transition: color 1s, border 1s;
+}
+/* line 540, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .left_arrow_post {
+  left: -105px;
+}
+/* line 542, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .right_arrow_post {
+  transform: rotate(180deg);
+  right: -100px;
+}
+/* line 545, ../sass/style.scss */
+section#Rblock section#recent_post .wr .inner_navigation_post .left_arrow_post:hover, section#Rblock section#recent_post .wr .inner_navigation_post .right_arrow_post:hover {
+  color: #5181FC;
+  border: 2px solid #5181FC;
+  top: 21px;
+}
+/* line 553, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post {
+  margin-top: 50px;
+  width: 920px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 560, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs {
+  position: absolute;
+  height: 100%;
+  width: 5520px;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+/* line 569, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li {
+  float: left;
+  list-style: none;
+  width: 920px;
+  height: 300px;
+}
+/* line 574, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li img {
+  width: 350px;
+  height: 300px;
+}
+/* line 578, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li .container_right_post {
+  padding: 20px 0 20px 30px;
+  width: 570px;
+  box-sizing: border-box;
+  float: right;
+}
+/* line 583, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li .container_right_post .cont_name_post {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+/* line 591, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li .container_right_post .cont_date_post {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+/* line 598, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li .container_right_post .cont_textarea_post {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+/* line 606, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li .container_right_post .cont_read_more {
+  color: #3971ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* line 613, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li .container_right_post .cont_read_more:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #3971ff;
+  margin-top: 10px;
+  transition: width 1s;
+}
+/* line 623, ../sass/style.scss */
+section#Rblock section#recent_post .wr .slider_post .slider_post_abs .slider_post_li .container_right_post .cont_read_more:hover:after {
+  width: 150px;
+}
+/* line 634, ../sass/style.scss */
+section#Rblock section#pricing_plan {
+  background-color: #f3f3f3;
+}
+/* line 636, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr {
+  flex-direction: column;
+}
+/* line 638, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan {
+  padding: 100px 0;
+}
+/* line 642, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .section_title h2 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 644, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .section_title h2:after {
+  content: "";
+  margin-top: 20px;
+  background-image: url("../img/Vector-line.png");
+  width: 70px;
+  height: 5px;
+  display: block;
+}
+/* line 649, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design {
+  float: left;
+  width: 445px;
+  padding: 50px 25px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-top: 70px;
+  transition: box-shadow 1s;
+}
+/* line 657, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design:hover {
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+/* line 661, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .name_pricing {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #4c4c4c;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+/* line 668, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .name_pricing span {
+  color: #3971ff;
+  font-weight: 900;
+}
+/* line 673, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .description_pricing {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+/* line 681, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .project_storage_support {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* line 688, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .project_storage_support li {
+  padding: 20px 0;
+  position: relative;
+}
+/* line 691, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .project_storage_support li span {
+  float: right;
+}
+/* line 695, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .project_storage_support li:not(:last-child):after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  height: 1px;
+  width: 445px;
+  background-color: #a7a7a7;
+}
+/* line 705, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .register_now {
+  color: #5181FC;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: calc(50% - 48px);
+  width: 96px;
+  cursor: pointer;
+}
+/* line 715, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .register_now:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #3971ff;
+  margin-top: 10px;
+  transition: width 1s;
+}
+/* line 725, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design .register_now:hover:after {
+  width: 150px;
+}
+/* line 730, ../sass/style.scss */
+section#Rblock section#pricing_plan .wr .inner_pricing_plan .app_design:nth-child(2) {
+  float: right;
+}
+/* line 737, ../sass/style.scss */
+section#Rblock section#client_feedback {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-image: url("../img/Developer_fon.png");
+  background-repeat: no-repeat;
+}
+/* line 743, ../sass/style.scss */
+section#Rblock section#client_feedback .wr {
+  flex-direction: column;
+}
+/* line 746, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .section_title h2 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 748, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .section_title h2:after {
+  content: "";
+  margin-top: 20px;
+  background-image: url("../img/Vector-line.png");
+  width: 70px;
+  height: 5px;
+  display: block;
+}
+/* line 753, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback {
+  position: relative;
+}
+/* line 755, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel {
+  margin: 50px auto 0;
+  text-align: center;
+}
+/* line 758, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel .man_feedback {
+  margin: 0 auto;
+}
+/* line 760, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel .man_feedback img {
+  opacity: 0.9;
+  width: 276px;
+  height: 186px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 767, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel .man_feedback .wr_block_feedback {
+  margin-top: 40px;
+}
+/* line 769, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel .man_feedback .wr_block_feedback .name_feedback {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* line 776, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel .man_feedback .wr_block_feedback .specialist_feedback {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+/* line 782, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel .man_feedback .wr_block_feedback .specialist_feedback span {
+  color: #3971ff;
+}
+/* line 786, ../sass/style.scss */
+section#Rblock section#client_feedback .wr .slider_feedback .owl-carousel .man_feedback .wr_block_feedback .description_feedback {
+  margin-top: 40px;
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* line 800, ../sass/style.scss */
+section#Rblock section#say_hello {
+  height: 540px;
+  padding: 90px 0 100px;
+  background-color: #f3f3f3;
+}
+/* line 804, ../sass/style.scss */
+section#Rblock section#say_hello .wr {
+  flex-direction: column;
+}
+/* line 807, ../sass/style.scss */
+section#Rblock section#say_hello .wr .section_title h2 {
+  color: #333;
+  font-family: "Exo2Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 809, ../sass/style.scss */
+section#Rblock section#say_hello .wr .section_title h2:after {
+  content: "";
+  margin-top: 20px;
+  background-image: url("../img/Vector-line.png");
+  width: 70px;
+  height: 5px;
+  display: block;
+}
+/* line 814, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say {
+  position: relative;
+  margin-top: 90px;
+}
+/* line 817, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say {
+  width: 300px;
+  float: left;
+}
+/* line 820, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say {
+  margin-bottom: 90px;
+}
+/* line 822, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say div[class^="icon_say"] {
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  left: 70px;
+  display: inline;
+}
+/* line 832, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say div[class^="icon_say"]:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  bottom: 0;
+  width: 40px;
+  height: 45px;
+  left: -70px;
+  cursor: pointer;
+}
+/* line 846, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say .icon_say_one:before {
+  background-image: url(../img/icon-home.png);
+}
+/* line 847, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say .icon_say_one:hover:before {
+  background-image: url(../img/icon-home-blue.png);
+}
+/* line 850, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say .icon_say_two:before {
+  background-image: url(../img/icon-mess.png);
+}
+/* line 851, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say .icon_say_two:hover:before {
+  background-image: url(../img/icon-mess-blue.png);
+}
+/* line 854, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .item_left_say .description_say {
+  margin-top: 25px;
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 285px;
+  line-height: 30px;
+}
+/* line 865, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .soc {
+  height: 28px;
+  position: absolute;
+  bottom: 0;
+}
+/* line 869, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .soc li {
+  width: 28px;
+  height: 28px;
+  margin-left: 43px;
+  background: url("../img/sprites.png");
+  background-repeat: no-repeat;
+  float: left;
+  cursor: pointer;
+}
+/* line 878, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .soc li:hover {
+  background: url("../img/sprites-blue.png");
+  background-repeat: no-repeat;
+}
+/* line 882, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .soc li:nth-child(1) {
+  margin-left: 0;
+  background-position: 0 0;
+}
+/* line 886, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .soc li:nth-child(2) {
+  background-position: -43px 0;
+}
+/* line 889, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .soc li:nth-child(3) {
+  background-position: -86px 0;
+}
+/* line 892, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .left_say .soc li:nth-child(4) {
+  background-position: -126px 0;
+}
+/* line 897, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say {
+  width: 550px;
+  float: right;
+  margin-top: -43px;
+}
+/* line 901, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say input {
+  width: 100%;
+  padding: 20px 0;
+  background: #F6F6f6;
+  border: 0;
+  border-bottom: 1px solid #a7a7a7;
+  margin-bottom: 13px;
+  outline: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* line 912, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say input:hover {
+  border-bottom: 1px solid #5181FC;
+  color: #4c4c4c;
+}
+/* line 918, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say input:hover::-webkit-input-placeholder {
+  color: #4c4c4c;
+}
+/* line 919, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say .message_area {
+  margin-top: 30px;
+  background-color: #f3f3f3;
+  width: 550px;
+  height: 100px;
+  resize: none;
+  border: 0;
+  outline: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* line 931, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say .take_me {
+  color: #3971ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+/* line 940, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say .take_me:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #3971ff;
+  margin-top: 10px;
+  transition: width 1s;
+}
+/* line 951, ../sass/style.scss */
+section#Rblock section#say_hello .wr .container_say .right_say .take_me:hover:after {
+  width: 150px;
+}

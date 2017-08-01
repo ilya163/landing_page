@@ -1,0 +1,48 @@
+$blue:#5181FC;
+$grey:#858586;
+$black:#333;
+$bcg_1:#F3F3F3;
+$bcg_2:#fff;
+$line:#a7a7a7;
+
+
+$Roboto:'Roboto', sans-serif;
+$Exo2:'Exo2Regular', sans-serif;
+
+$size:10px;
+body{
+	margin: 0;
+	padding: 0;
+	font-size:$size;
+}
+h1,h2{
+text-transform: uppercase;
+}
+
+	.wr{
+		display: flex;
+		width: 920px;
+		margin: 0 auto;
+		height: 100%;
+		}
+		
+		@mixin skills__h2{
+			color: #333;
+			font-family:$Exo2;
+			font-size: 30px;
+			font-weight: 600;
+			line-height: 30px;
+			text-transform: uppercase;
+		}
+		@mixin skills__after{
+					content:"";
+					margin-top: 20px;
+					background-image: url("../img/Vector-line.png");
+					width: 70px;
+					height: 5px;
+					display: block;
+					}
+		
+				
+				
+			
