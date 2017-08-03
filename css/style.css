@@ -1048,6 +1048,7 @@ section#Rblock section#say_hello .wr .container_say .left_say {
 /* line 820, ../sass/style.scss */
 section#Rblock section#say_hello .wr .container_say .left_say .item_left_say {
   margin-bottom: 90px;
+  cursor:pointer;
 }
 /* line 822, ../sass/style.scss */
 section#Rblock section#say_hello .wr .container_say .left_say .item_left_say div[class^="icon_say"] {
