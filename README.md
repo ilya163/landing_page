@@ -1,3 +1,3 @@
 Предпросмотр:
-1. Скачиваете проект git clone <url>
-2. Открываете файл index.html через Chrome браузер
+1. Скачиваем проект git clone https://github.com/ilya163/landing_page.git
+2. Открываем файл index.html через Chrome браузер
